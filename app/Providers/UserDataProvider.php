@@ -42,6 +42,7 @@ class UserDataProvider extends ServiceProvider
     /**
      * New method => (Composer views)
      */
+    // View::composer()
     view()->composer(['composer', 'data'], function ($view) {
       $view->with('composerData', ['username' => 'Ahmed', 'phoneNum' => '01211383010']);
 
