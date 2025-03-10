@@ -37,5 +37,9 @@ class AppServiceProvider extends ServiceProvider
     $user = new User('Ahmed Osama', 'ahmed@gmail.com');
 
     View::share(compact('user'));
+
+    $count = 20;
+
+    View::share(compact('count'));
   }
 }
