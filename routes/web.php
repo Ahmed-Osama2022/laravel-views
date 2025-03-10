@@ -68,3 +68,8 @@ Route::get('/data', function () {
  * We use "AppServiceProvider.php" file in the "app/Providers/"
  * In the boot method
  */
+
+/**
+ * Using composer views
+ */
+Route::view('/composer', 'composer');

@@ -20,6 +20,22 @@
   <br>
   {{ $user->email }} <span> - is </span> {{ $status }}
 
+  {{-- For the shared data in "UserDataProvider.php" --}}
+  <h3> ========== Car info ========= </h3>
+  {{ $car->carname }}
+  <p>Motor size is {{ $car->motorsize }} </p>
+
+
+  <br>
+  <br>
+  <br>
+  {{-- From composer views --}}
+  <h3>From composer views</h3>
+  {{ $composerData['username'] }}
+  <br>
+  {{ $composerData['phoneNum'] }}
+
+
 </body>
 
 </html>
