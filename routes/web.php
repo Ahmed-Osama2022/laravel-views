@@ -73,4 +73,14 @@ Route::get('/data', function () {
  * Using composer views
  */
 Route::view('/composer', 'composer');
+
+
+
+/**
+ * ================================================
+ *  |||||||| Start working with Blade ||||||||||||
+ * ================================================
+ */
 Route::view('/blade', 'blades.blade');
+Route::view('/blade/if', 'blades.conditions');
+Route::view('/blade/loops', 'blades.loops');
